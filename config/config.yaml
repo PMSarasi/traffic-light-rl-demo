@@ -1,0 +1,24 @@
+# config/config.yaml
+environment:
+  num_lanes: 4
+  max_queue: 20
+  time_step: 5
+  yellow_time: 3
+  min_green: 10
+  max_green: 60
+
+agent:
+  learning_rate: 0.001
+  gamma: 0.99
+  epsilon: 1.0
+  epsilon_min: 0.01
+  epsilon_decay: 0.995
+  batch_size: 64
+  memory_size: 10000
+  target_update: 10
+
+training:
+  episodes: 500
+  max_steps: 100
+  eval_interval: 50
+  save_interval: 100
