@@ -24,8 +24,4 @@ The RL agent achieves:
 - Improved throughput compared to fixed-time control
 - Adaptive response to varying traffic patterns
 
-## Installation
-```bash
-git clone https://github.com/yourusername/traffic-rl-control
-cd traffic-rl-control
-pip install -r requirements.txt
+ 
